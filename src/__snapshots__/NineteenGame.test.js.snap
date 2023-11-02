@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot tests for stability matches initial player hand: 2C 3C 1`] = `
+<div>
+  <main>
+    <div
+      class="Hand"
+    />
+    <div
+      class="Hand"
+    >
+      <img
+        alt="2C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/2C.png"
+      />
+      <img
+        alt="3C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/3C.png"
+      />
+    </div>
+    <p>
+      <button
+        id="draw"
+      >
+        Draw
+      </button>
+      <button
+        id="pass"
+      >
+        Pass
+      </button>
+    </p>
+  </main>
+</div>
+`;
+
+exports[`snapshot tests for stability matches losing game: 2C 3C < 4C 5C 1`] = `
+<div>
+  <main>
+    <div
+      class="Hand"
+    >
+      <img
+        alt="4C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/4C.png"
+      />
+      <img
+        alt="5C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/5C.png"
+      />
+    </div>
+    <div
+      class="Hand"
+    >
+      <img
+        alt="2C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/2C.png"
+      />
+      <img
+        alt="3C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/3C.png"
+      />
+    </div>
+    <p>
+      You lose!
+    </p>
+  </main>
+</div>
+`;
+
+exports[`snapshot tests for stability matches winning game: 2C 3C 4C > 5C 6C 1`] = `
+<div>
+  <main>
+    <div
+      class="Hand"
+    >
+      <img
+        alt="5C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/5C.png"
+      />
+      <img
+        alt="6C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/6C.png"
+      />
+    </div>
+    <div
+      class="Hand"
+    >
+      <img
+        alt="2C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/2C.png"
+      />
+      <img
+        alt="3C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/3C.png"
+      />
+      <img
+        alt="4C"
+        class="Card"
+        src="https://deckofcardsapi.com/static/img/4C.png"
+      />
+    </div>
+    <p>
+      You win!
+    </p>
+  </main>
+</div>
+`;

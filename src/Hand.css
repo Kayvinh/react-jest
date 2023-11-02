@@ -1,0 +1,8 @@
+.Hand {
+  border: solid 2px white;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+  width: 630px;
+  height: 300px;
+}
